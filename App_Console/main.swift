@@ -8,6 +8,10 @@
 
 import Foundation
 
+for i in 0...100 {
+    print(Math.nombreAleatoire(comprisEntre: 1, et: 100))
+}
+
 let texte:String
 texte = Utilisateur.saisirTexte()
 print("Hello, World!")
