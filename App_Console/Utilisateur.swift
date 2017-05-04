@@ -9,6 +9,11 @@
 import Foundation
 
 class Utilisateur {
+    /**
+     Permet à l'utilisateur de saisir un entier dans la console
+     
+     - Returns: l'entier saisi
+     */
     static func saisirEntier() -> Int {
         var readValue:Int?
         repeat {
